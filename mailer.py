@@ -27,7 +27,7 @@ def connect_type(word_list):
 # Account Information
 to = 'come8315@colorado.edu' # Email to send to.
 gmail_user = 'djroomba2019@gmail.com' # Email to send from. (MUST BE GMAIL)
-gmail_password = 'robotics2019' # Gmail password.
+gmail_password = 'pwd' # Gmail password.
 smtpserver = smtplib.SMTP('smtp.gmail.com', 587) # Server to use.
 
 smtpserver.ehlo()  # Says 'hello' to the server
